@@ -1,13 +1,39 @@
 # AI Spam Message Detector
 
-This is a beginner AI/ML project using Python.
+A Machine Learning web app that detects whether a message is spam or not using Python and Flask.
 
 ## Features
-- Detects spam messages
-- GUI using Tkinter
-- Machine Learning model
 
-## Technologies
-- Python
-- Scikit-learn
-- Tkinter
+* Spam detection using AI/ML
+* Flask web application
+* Real-time prediction
+* Beginner-friendly project
+
+## Technologies Used
+
+* Python
+* Flask
+* Scikit-learn
+* Pandas
+* HTML/CSS
+
+## Live Demo
+
+https://spam-classifier-tqbe.onrender.com
+
+## Example
+
+Input:
+Congratulations! You won a free iPhone
+
+Output:
+Spam Message
+
+## Future Improvements
+
+* Better UI
+* Dark mode
+* Voice input
+* Deep learning model
+
+
