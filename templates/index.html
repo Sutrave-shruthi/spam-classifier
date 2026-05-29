@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>AI Spam Detector</title>
+</head>
+
+<body style="font-family: Arial; text-align:center; margin-top:50px;">
+
+    <h1>AI Spam Message Detector</h1>
+
+    <form action="/predict" method="post">
+
+        <textarea
+            name="message"
+            rows="8"
+            cols="50"
+            placeholder="Enter message here"></textarea>
+
+        <br><br>
+
+        <button type="submit">
+            Check Message
+        </button>
+
+    </form>
+
+    <h2>
+        {{ prediction }}
+    </h2>
+
+</body>
+
+</html>
